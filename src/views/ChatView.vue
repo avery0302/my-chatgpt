@@ -1,5 +1,5 @@
 <template>
-    <div>1234566</div>
+    <h1>my chatgpt</h1>
 </template>
 
 <script setup>
