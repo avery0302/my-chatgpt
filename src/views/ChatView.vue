@@ -7,7 +7,11 @@
         <div class="bg-red item">5</div>
         <div class="bg-green item">6</div>
       </div>
-      <div class="bg-green user">333</div>
+      <div class="border-green user">
+        <div class="bg-red round">
+          <i class="pi pi-user"></i>
+        </div>
+      </div>
     </div>
     <div class="right">
       <div class="bg-yellow header">
@@ -18,9 +22,11 @@
           <div class="more">4</div>
         </div>
       </div>
-      <div class="bg-blue chat">
+      <div class="border-blue chat">
         <div class="bg-red input">111</div>
-        <div class="bg-yellow tip">ChatGPT也可能会犯错。请核查重要信息。</div>
+        <div class="border-yellow tip">
+          ChatGPT也可能会犯错。请核查重要信息。
+        </div>
       </div>
     </div>
   </div>
@@ -39,7 +45,7 @@
     flex-direction: column;
 
     .favicon {
-      height: 60px;
+      height: 55px;
     }
 
     .sidebar {
@@ -52,6 +58,23 @@
 
     .user {
       height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .round {
+        background: rgb(229, 229, 229);
+        height: 25px;
+        width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        i {
+          font-size: 12px;
+        }
+      }
     }
   }
 
@@ -101,6 +124,8 @@
         display: flex;
         justify-content: center;
         height: 35px;
+        font-size: 12.5px;
+        color: rgb(157, 157, 157);
       }
     }
   }
