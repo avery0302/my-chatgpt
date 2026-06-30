@@ -3,5 +3,13 @@ import ChatView from './views/ChatView.vue';
 </script>
 
 <template>
-  <ChatView />
+  <div class="app">
+    <ChatView />
+  </div>
 </template>
+
+<style scoped>
+.app {
+  height: 100%;
+}
+</style>
