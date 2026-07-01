@@ -5,6 +5,9 @@ html {
 body {
   margin: 0;
   height: 100%;
+  font-family:
+    Inter, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui,
+    sans-serif;
 }
 
 #app {
