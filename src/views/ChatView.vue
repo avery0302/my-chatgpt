@@ -1,32 +1,30 @@
 <template>
   <div class="container">
     <div class="bg left">
-      <div class="bg-red favicon">111</div>
+      <div class="bd favicon">1</div>
       <div class="sidebar">
-        <div class="bg-yellow item">4</div>
-        <div class="bg-red item">5</div>
-        <div class="bg-green item">6</div>
+        <div class="bd item">2</div>
+        <div class="bd item">3</div>
+        <div class="bd item">4</div>
       </div>
-      <div class="border-green user">
-        <div class="bg-red round">
+      <div class="bd user">
+        <div class="bd round">
           <i class="pi pi-user"></i>
         </div>
       </div>
     </div>
     <div class="right">
-      <div class="bg-yellow header">
-        <div class="model bg-red">1</div>
+      <div class="bd header">
+        <div class="model bd">5</div>
         <div class="header-right">
-          <div class="free bg-green">2</div>
-          <div class="share bg-red">3</div>
-          <div class="more">4</div>
+          <div class="free bd">6</div>
+          <div class="share bd">7</div>
+          <div class="more">8</div>
         </div>
       </div>
-      <div class="border-blue chat">
-        <div class="bg-red input">111</div>
-        <div class="border-yellow tip">
-          ChatGPT也可能会犯错。请核查重要信息。
-        </div>
+      <div class="bd chat">
+        <div class="bd input">9</div>
+        <div class="bd tip">ChatGPT也可能会犯错。请核查重要信息。</div>
       </div>
     </div>
   </div>

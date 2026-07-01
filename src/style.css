@@ -15,30 +15,10 @@ body {
   background: red;
 }
 
-.bg-yellow {
-  background: yellow;
-}
-
 .bg-blue {
   background: blue;
 }
 
-.bg-green {
-  background: green;
-}
-
-.border-red {
-  border: 1px solid red;
-}
-
-.border-yellow {
-  border: 1px solid yellow;
-}
-
-.border-blue {
-  border: 1px solid blue;
-}
-
-.border-green {
-  border: 1px solid green;
+.bd {
+  border: 1px solid black;
 }
