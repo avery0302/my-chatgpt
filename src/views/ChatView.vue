@@ -12,7 +12,7 @@
           <i class="pi pi-search"></i>
         </div>
         <div class="item">
-          <i class="pi pi-images"></i>
+          <i class="pi pi-comment"></i>
         </div>
       </div>
       <div class="user">
@@ -70,7 +70,7 @@
             </div>
             <div class="button-box">
               <Button iconOnly severity="contrast" aria-label="send">
-                <i class="pi pi-headphones"></i>
+                <i class="pi pi-wave-pulse"></i>
               </Button>
             </div>
           </div>
@@ -269,6 +269,7 @@
 
               .mic {
                 font-size: 20px;
+                margin-left: 10px;
               }
             }
           }
